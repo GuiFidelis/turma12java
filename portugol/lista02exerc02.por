@@ -16,12 +16,12 @@ programa
 		escreva("Insira o número de horas trabalhadas: ")
 		leia(N)
 
-		enquanto ( N <= 0){
-			escreva("Insira um valor maior que zero: ")
-			leia(N)
+		se (N <1){
+			
+			escreva ("O valor de horas trabalhadas não é válido")
 		}
 		
-		se( N <= 50){
+		senao se( N <= 50){
 
 			valSalTotal = (N*valHoraNormal)
 
@@ -51,7 +51,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 958; 
+ * @POSICAO-CURSOR = 423; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
