@@ -19,7 +19,7 @@ programa
 			}
 		}
 
-		escreva("\n\n---------------------------------")
+		escreva("\n---------------------------------")
 		escreva("\n\nO maior valor digitado é: ", maiorNum)
 
 	}
@@ -29,7 +29,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 85; 
+ * @POSICAO-CURSOR = 376; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

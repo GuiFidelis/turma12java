@@ -1,33 +1,35 @@
 programa
 {
-	
+	inclua biblioteca Util
 	funcao inicio()
 	{
 		const inteiro x=10
-		real notas[x], maiorNum=0.0, media=0.0, soma=0.0
-		inteiro cont=0, ocorrencias=0
+		real  media=0.0, soma=0.0
+		inteiro cont=0, ocorrencias=0, lancamentos[x], maiorNum=0
 		
 		para ( cont=0; cont<x; cont++)
 		{
-			escreva("Insira o valor da nota ",cont+1," : ")
-			leia(notas[cont])
+			lancamentos[cont] = Util.sorteia(1,6)
 
-			se(notas[cont] > maiorNum)
+			se(lancamentos[cont] > maiorNum)
 			{
 				ocorrencias = 1
-				maiorNum = notas[cont]
+				maiorNum = lancamentos[cont]
 			}
-			senao se(notas[cont] == maiorNum)
+			senao se(lancamentos[cont] == maiorNum)
 			{
 				ocorrencias++
 			}
 
-			soma = soma + notas[cont]
+			soma = soma + lancamentos[cont]
+
+			escreva("O valor do lançamento do dado ",cont+1," é: ",lancamentos[cont],"\n")
 		}
 
-		media = (soma/10)
-		
-		escreva("\nA media dos números digitados é: ",media)
+		media = (soma/x)
+
+		escreva("\nA soma dos valores é: ",soma)
+		escreva("\nA média dos resultados é: ",media)
 		escreva("\nA maior nota é ",maiorNum," e ocorreu ",ocorrencias," vezes")
 	}
 }
@@ -36,7 +38,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 41; 
+ * @POSICAO-CURSOR = 601; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

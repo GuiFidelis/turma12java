@@ -1,6 +1,6 @@
 programa
 {
-	
+	inclua biblioteca Util
 	funcao inicio()
 	{
 		
@@ -10,14 +10,15 @@ programa
 		inteiro l=0, c=0, soma=0, somaDiagonal=0
 
 
-		escreva("Primeira Matriz:\n")
+		escreva("A matriz é:\n")
 		para(l=0; l<linha; l++)
 		{
 			escreva("\n")
 			para(c=0; c<coluna; c++)
 			{
-				escreva("Informe um valor: ")
-				leia(matriz[l][c])
+				
+				matriz[l][c]= Util.sorteia(1,9)
+				escreva("[ ",matriz[l][c]," ]")
 
 				se (l == c)
 				{
@@ -27,7 +28,8 @@ programa
 				soma = soma +matriz[l][c]
 			}
 		}
-
+		
+		escreva("\n")
 		escreva("\nA soma dos números digitados é: ",soma)
 		escreva("\nA soma dos números da diagonal principal é: ",somaDiagonal)
 	}
@@ -37,7 +39,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 166; 
+ * @POSICAO-CURSOR = 491; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
