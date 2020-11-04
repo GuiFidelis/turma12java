@@ -82,7 +82,7 @@ programa
 		{
 			para(c=0; c<coluna; c++)
 			{
-				escreva("[ ",M1[l][c] = mat.valor_absoluto(N1[l][c]-N2[l][c])," ]")
+				escreva("[ ",M2[l][c] = mat.valor_absoluto(N1[l][c]-N2[l][c])," ]")
 			}
 			escreva("\n")
 		}
