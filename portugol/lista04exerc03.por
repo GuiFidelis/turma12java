@@ -16,28 +16,21 @@ programa
 
 
 //inserir dados
-		escreva("Primeira Matriz:\n")
 		para(l=0; l<linha; l++)
 		{
-			escreva("\n")
 			para(c=0; c<coluna; c++)
 			{
 				N1[l][c] = Util.sorteia(1,9)
 			}
 		}
 		
-		escreva("\n")
-		escreva("Segunda Matriz:\n")
 		para(l=0; l<linha; l++)
 		{
-			escreva("\n")
 			para(c=0; c<coluna; c++)
 			{
 				N2[l][c] = Util.sorteia(1,9)
 			}
 		}
-
-		limpa()
 
 //Matriz 1		
 		escreva("Matriz 1:\n")
@@ -82,7 +75,7 @@ programa
 		{
 			para(c=0; c<coluna; c++)
 			{
-				escreva("[ ",M1[l][c] = mat.valor_absoluto(N1[l][c]-N2[l][c])," ]")
+				escreva("[ ",M2[l][c] = mat.valor_absoluto(N1[l][c]-N2[l][c])," ]")
 			}
 			escreva("\n")
 		}
@@ -94,7 +87,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 342; 
+ * @POSICAO-CURSOR = 390; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
