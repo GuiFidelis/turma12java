@@ -67,7 +67,7 @@ programa
 				limpa()
 				escreva("Infome uma opção válida")
 				escreva("\n\nQuer continuar? S-SIM ou N-NÃO: ")
-				leia(cont)
+				leia(decisao)
 			}
 
 			cont=0
@@ -101,11 +101,11 @@ programa
 					escreva("\nVitórias: ",vit[cont])
 					escreva("\nEmpates: ",emp[cont])
 					escreva("\nDerrotas: ",der[cont])
-					verificaTime = 1				
+					verificaTime = 1	
 				}
-				senao
+				senao se( verificaTime != 1 )
 				{
-					verificaTime = 0	
+					verificaTime =0
 				}
 								
 			}
@@ -114,7 +114,7 @@ programa
 			{
 				escreva("Time não encontrado")
 			}
-
+			verificaTime =0
 
 			escreva("\n\n")
 			escreva("---------------------------------\n\n")
@@ -138,7 +138,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 2292; 
+ * @POSICAO-CURSOR = 2426; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
