@@ -20,7 +20,7 @@ programa
 		{
 			para(c=0; c<coluna; c++)
 			{
-				N1[l][c] = Util.sorteia(1,9)
+				N1[l][c] = Util.sorteia(50,60)
 			}
 		}
 		
@@ -28,7 +28,7 @@ programa
 		{
 			para(c=0; c<coluna; c++)
 			{
-				N2[l][c] = Util.sorteia(1,9)
+				N2[l][c] = Util.sorteia(10,20)
 			}
 		}
 
@@ -87,7 +87,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 390; 
+ * @POSICAO-CURSOR = 454; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
