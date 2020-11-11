@@ -15,14 +15,14 @@ public class Lista02Exerc02 {
 		double valSalTotal=0, valSalExcedente=0;
 		final double valHoraNormal=10.00, valHoraExcedente=20.00;
 
-		System.out.print("Insira o código do funcionário: ");
+		System.out.print("Insira o cï¿½digo do funcionï¿½rio: ");
 		C = leia.nextInt();
-		System.out.print("Insira o número de horas trabalhadas: ");
+		System.out.print("Insira o nï¿½mero de horas trabalhadas: ");
 		N = leia.nextDouble();
 
 		if (N <1)
 		{
-			System.out.print ("O valor de horas trabalhadas não é válido");
+			System.out.print ("O valor de horas trabalhadas nï¿½o ï¿½ vï¿½lido");
 		}
 		
 		else if( N <= 50)
@@ -30,8 +30,8 @@ public class Lista02Exerc02 {
 
 			valSalTotal = (N*valHoraNormal);
 
-			System.out.printf("O salário total é de: %.2f reais",valSalTotal);
-			System.out.print("\nNão há valor referente à horas excedentes");
+			System.out.printf("O salï¿½rio total ï¿½ de: %.2f reais",valSalTotal);
+			System.out.print("\nNï¿½o hï¿½ valor referente ï¿½ horas excedentes");
 		}
 		
 		else{
@@ -40,8 +40,8 @@ public class Lista02Exerc02 {
 			valSalExcedente = E*valHoraExcedente;
 			valSalTotal = ((N-E)*valHoraNormal) + valSalExcedente;
 
-			System.out.printf("O salário total é de: %.2f reais", valSalTotal);
-			System.out.printf("\nO salário excedente é de: %.2f reais",valSalExcedente);
+			System.out.printf("O salï¿½rio total ï¿½ de: %.2f reais", valSalTotal);
+			System.out.printf("\nO salï¿½rio excedente ï¿½ de: %.2f reais",valSalExcedente);
 				
 		}
 		
