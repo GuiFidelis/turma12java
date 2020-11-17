@@ -19,5 +19,15 @@ public class Patinete {
 		this.valor = valor;
 	}
 	
+	public void imprimedados()
+	{
+		System.out.print("\n\n\tDados do Patinte");
+		System.out.print("\n--------------------------------");
+		System.out.print("\nMaterial: "+this.material+("."));
+		System.out.print("\nFabricante: "+this.fabricante+("."));
+		System.out.print("\nPara crianças maiores de: "+this.idadeMinima+(" Anos."));
+		System.out.print("\nValor de Compra: R$"+this.valor+("."));
+		System.out.print("\n--------------------------------");
+	}
 
 }

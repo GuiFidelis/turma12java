@@ -18,6 +18,17 @@ public class Paciente {
 		this.duracaDias = duracaDias;
 		this.medicacao = medicacao;
 	}
+	
+	public void imprimedados()
+	{
+		System.out.print("\n\n\tDados do Paciente");
+		System.out.print("\n--------------------------------");
+		System.out.print("\nNome: "+this.nome+("."));
+		System.out.print("\nTipo de tratamento: "+this.tipoTratamento+("."));
+		System.out.print("\nTempo de tratamento: "+this.duracaDias+(" dias."));
+		System.out.print("\nMedicação: "+this.medicacao+("."));
+		System.out.print("\n--------------------------------");
+	}
 
 	
 	

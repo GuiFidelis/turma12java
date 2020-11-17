@@ -22,11 +22,15 @@ public class Cliente {
 		this.genero = genero;
 	}
 	
-	public int anoNasc(int anoNasc)
+	public void imprimedados()
 	{
-		anoNasc = 2020 - anoNasc;
-		
-		return anoNasc;
+		System.out.print("\tDados do Cliente");
+		System.out.print("\n--------------------------------");
+		System.out.print("\nNome: "+this.nomeCompleto+("."));
+		System.out.print("\nIdade: "+this.idade+("."));
+		System.out.print("\nCPF: "+this.cpf+("."));
+		System.out.print("\nGênero: "+this.genero+("."));
+		System.out.print("\n--------------------------------");
 	}
 	
 }

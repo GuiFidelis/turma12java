@@ -19,6 +19,17 @@ public class Funcionario {
 		this.cargo = cargo;
 		this.periodoTrabalho = periodoTrabalho;
 	}
+	
+	public void imprimedados()
+	{
+		System.out.print("\n\n      Dados do Funcionário");
+		System.out.print("\n--------------------------------");
+		System.out.print("\nCódigo: "+this.codigo+("."));
+		System.out.print("\nNome: "+this.nomeCompleto+("."));
+		System.out.print("\nCargo: "+this.cargo+("."));
+		System.out.print("\nPeríodo de trabalho: "+this.periodoTrabalho+("."));
+		System.out.print("\n--------------------------------");
+	}
 
 	
 

@@ -19,6 +19,16 @@ public class ContaBancaria {
 		this.saldo = saldo;
 	}
 	
+	public void imprimedados()
+	{
+		System.out.print("\n\n\tDados Conta Bancaria");
+		System.out.print("\n--------------------------------");
+		System.out.print("\nCPF: "+this.cpf+("."));
+		System.out.print("\nCliente: "+this.nomeCliente+("."));
+		System.out.print("\nTipo de conta: "+this.tipoConta+("."));
+		System.out.print("\nSaldo: R$"+this.saldo+("."));
+		System.out.print("\n--------------------------------");
+	}
 	
 	
 }

@@ -20,6 +20,16 @@ public class Aviao {
 		this.tipoDeViagem = tipoDeViagem;
 	}
 	
+	public void imprimedados()
+	{
+		System.out.print("\n\n\tDados do Avião");
+		System.out.print("\n--------------------------------");
+		System.out.print("\nTipo do avião: "+this.tipo+("."));
+		System.out.print("\nNumeração: "+this.numeracao+("."));
+		System.out.print("\nCapacidade: "+this.capacidade+(" passageiros."));
+		System.out.print("\nTipo de viagem: "+this.tipoDeViagem+("."));
+		System.out.print("\n--------------------------------");
+	}
 	
 	
 }
