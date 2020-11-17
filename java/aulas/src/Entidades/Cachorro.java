@@ -6,5 +6,10 @@ public class Cachorro {
 	public String raca;
 	public int anoNascimento;
 	public char genero;
+	
+	public Cachorro(String raca)
+	{
+		this.raca = raca;
+	}
 
 }
