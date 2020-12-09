@@ -10,6 +10,7 @@ public class ProgramaFornecedor {
 		Scanner input = new Scanner(System.in);
 		
 		Fornecedor fornecedor1 = new Fornecedor();
+		Fornecedor fornecedor2 = new Fornecedor("joao", "rua 1", "9999", 250, 100);
 		
 		System.out.print("Informe o nome do fornecedor: ");
 		fornecedor1.setNome(input.nextLine());
